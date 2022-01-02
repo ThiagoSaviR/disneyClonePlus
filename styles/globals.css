@@ -2,34 +2,86 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #13151F;
-  color: #ffff
-
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #13151f;
+  color: #ffff;
 }
-
 
 a {
   color: inherit;
   text-decoration: none;
 }
 
-.app{
-  margin: 20px;
+.navbar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
 }
 
-.main-video{
+.main-video {
   width: 100vw;
   height: 30vh;
   overflow: hidden;
-  position:relative;
+  position: relative;
   margin-bottom: 50px;
 }
 
-.card{
-  width: 20%;
+.main-video img{
+  width: 100%;
+}
+
+.card {
+  width: 19.2%;
   height: auto;
   border-radius: 5%;
+  margin: 0.4%;
+  filter: drop-shadow(5px 5px 10px #000);
+}
+.video-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.info {
+  position: relative;
+  margin-top: 30%;
+  margin-left: 50px;
+  max-width: 50%;
+}
+
+.video-overlay {
+  position: absolute;
+}
+.info-footer {
+  height: 100vh;
+}
+
+.account-info {
+  display: flex;
+  height: 50%;
+  margin-right: 20px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.franchise {
+  width: 20%;
+  background-color: #1e2841;
   margin: 5px;
-  filter: drop-shadow(5px 5px 10px #000)
+  border-radius: 5px;
+}
+.video-feed {
+  display: flex;
+}
+
+.logo-wrapper {
+  padding: 10px 30px;
 }
